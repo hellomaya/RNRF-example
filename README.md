@@ -9,7 +9,7 @@ Here is how to make a side-menu with tab along:
 
 - Create a navigation drawer from 'react-native-drawer'
 
-```
+```jsx
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -70,7 +70,7 @@ class SideMenu extends Component {
 
 - Your app component and router will be :
 
-```
+```jsx
 export default class Home extends Component {
 
     componentWillMount() {
@@ -103,7 +103,7 @@ export default class Home extends Component {
 
 - Then ```HomeTabbar.js```
 
-```
+```jsx
 import React from 'react';
 import {
     StyleSheet
@@ -162,7 +162,7 @@ module.exports =
 
 - A example about Tab scene:
 
-```
+```jsx
 module.exports =
     <Scene key='tabOrder'
            initial={true}
