@@ -187,4 +187,11 @@ module.exports =
     </Scene>;
 ```
 
+Then use this to hide/show menu
+
+```jsx
+// then you could open/hide/toggle drawer anywhere using 'refresh' modifiers:
+Actions.refresh({key: 'drawer', open: value => !value });
+```
+
 
